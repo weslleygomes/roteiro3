@@ -31,7 +31,7 @@ int main(){
 		if (jogadores[i].votos == 0){
 			continue;
 		}
-		printf("votos do jogador %d: %f\n",i+1, (jogadores[i].votos/c)*100);
+		printf("votos do jogador %d: %.02f\n",i+1, (jogadores[i].votos/c)*100);
 	}
 	for(i = 0; i<23;i++){
 		if(jogadores[i].votos > maisvotos){
