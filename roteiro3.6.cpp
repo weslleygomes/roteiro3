@@ -39,5 +39,5 @@ int main(){
 			maisvotado = i;
 		}
 	}
-	printf("O jogador %d foi o mais votado com %f porcento dos votos!",maisvotado, ((jogadores[maisvotado].votos/c)*100) );
+	printf("O jogador %d foi o mais votado com %f porcento dos votos!",maisvotado+1, ((jogadores[maisvotado].votos/c)*100) );
 }
